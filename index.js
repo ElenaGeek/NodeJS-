@@ -10,7 +10,7 @@ if(rlast<= rfirst || isNaN(rfirst) || isNaN(rlast)){
 }
 
 var i=rfirst;
-simple = [];git remote add origin https://github.com/ElenaGeek/NodeJS-.git
+simple = [];
 var z=0;
 
 while (i <= rlast){   
