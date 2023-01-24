@@ -5,6 +5,12 @@
   "main": "index.js",
   "scripts": {
     "dev": "node index.js",
+    "hw": "node L4/homework.js",
+    "askpath": "node L4/dir2/askdirpath.js",
+    "clipath": "node L4/dir2/clicurrpath.js",
+    "indir": "node L4/dir2/inquirercurrdir.js",
+    "inpath": "node L4/dir2/inquirerconstpath.js",
+    "ypath": "node L4/dir2/yargsargpath.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,6 +18,11 @@
   "dependencies": {
     "colors": "^1.4.0",
     "events": "^3.3.0",
-    "moment": "^2.29.4"
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.0.0",
+    "moment": "^2.29.4",
+    "path": "^0.12.7",
+    "stream": "^0.0.2",
+    "yargs": "^17.6.2"
   }
 }
